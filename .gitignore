@@ -2,13 +2,18 @@
 # Node.js and Angular
 # =======================
 # Dependency directories
-/node_modules/
-/dist/
-/tmp/
+ServiceBookingSystemWeb/.angular/
+ServiceBookingSystemWeb/node_modules/
+ServiceBookingSystemWeb/dist/
+ServiceBookingSystemWeb/tmp/
+ServiceBookingSystemWeb/coverage/
 
 # Angular environment files
-src/environments/environment.ts
-src/environments/environment.prod.ts
+ServiceBookingSystemWeb/src/environments/environment.ts
+ServiceBookingSystemWeb/src/environments/environment.prod.ts
+
+# TypeScript build info files
+ServiceBookingSystemWeb/*.tsbuildinfo
 
 # =======================
 # Java and Spring Boot
@@ -16,16 +21,14 @@ src/environments/environment.prod.ts
 # Compiled output
 ServiceBookingSystem/target/
 
-# Spring Boot configuration files
-
-# Build files
-*.jar
-*.war
-*.ear
-*.out
-*.tmp
-*.swp
-*.class
+# Spring Boot build files
+ServiceBookingSystem/*.jar
+ServiceBookingSystem/*.war
+ServiceBookingSystem/*.ear
+ServiceBookingSystem/*.out
+ServiceBookingSystem/*.tmp
+ServiceBookingSystem/*.swp
+ServiceBookingSystem/*.class
 
 # =======================
 # IDEs and editors
@@ -68,10 +71,8 @@ RemoteSystemsTempFiles/
 Thumbs.db
 
 # Cache and temporary files
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
+ServiceBookingSystemWeb/.sass-cache/
+ServiceBookingSystemWeb/connect.lock
+ServiceBookingSystemWeb/libpeerconnection.log
+ServiceBookingSystemWeb/testem.log
+ServiceBookingSystemWeb/typings

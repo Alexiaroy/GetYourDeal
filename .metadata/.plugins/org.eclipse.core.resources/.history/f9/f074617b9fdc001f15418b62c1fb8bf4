@@ -1,5 +1,0 @@
-package com.isika.ServiceBookingSystem.Service.Authentication;
-
-public interface AuthService {
-
-}

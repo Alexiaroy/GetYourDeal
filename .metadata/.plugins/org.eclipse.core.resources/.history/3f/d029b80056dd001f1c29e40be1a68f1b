@@ -1,5 +1,0 @@
-package com.isika.ServiceBookingSystem.Service.Jwt;
-
-public class UserDetailsServiceImpl {
-
-}

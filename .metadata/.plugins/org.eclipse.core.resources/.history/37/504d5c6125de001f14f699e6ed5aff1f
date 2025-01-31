@@ -1,5 +1,0 @@
-package com.isika.ServiceBookingSystem.Service.Company;
-
-public interface CompanyService {
-
-}
