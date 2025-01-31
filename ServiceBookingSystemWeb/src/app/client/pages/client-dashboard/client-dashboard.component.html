@@ -1,0 +1,72 @@
+<div class="bg">
+  <form
+    nz-form
+    [formGroup]="validateForm"
+    (ngSubmit)="searchAdByName()"
+    style="margin-top: 20px; margin-bottom: 20px; text-align: center"
+  >
+    <input
+      #searchInput
+      nz-input
+      placeholder="Enter service to search"
+      ngSize="large"
+      style="width: 20%"
+      formControlName="service"
+      placeholder="Enter service to search"
+    />
+
+    <button
+      class="hover-button"
+      nz-button
+      nzSize="large"
+      nzType="primary"
+      style="background-color: #108ee9; margin-left: 15px"
+      [disabled]="validateForm.invalid"
+    >
+      Search
+    </button>
+
+    <button
+      class="hover-button"
+      nz-button
+      nzSize="large"
+      nzType="primary"
+      style="background-color: #108ee9; margin-left: 15px"
+      (click)="refreshAds(searchInput)"
+      type="button"
+    >
+      Refresh
+    </button>
+  </form>
+
+  <div class="child" *ngFor="let ad of ads">
+    <div nz-row>
+      <div nz-col nzSpan="8">
+        <img
+          class="profile"
+          [src]="updateImg(ad.returnedImg)"
+          style="max-height: 350px; max-width: 90%; border-radius: 10px"
+        />
+      </div>
+      <div nz-col nzSpan="16">
+        <h2 style="cursor: pointer; color: #108ee9">
+          {{ ad.serviceName }}
+        </h2>
+        <hr />
+        <h5><b>Prix : </b>{{ ad.price }} €</h5>
+        <h5><b>Description : </b>{{ ad.description }}</h5>
+        <hr />
+        <div style="float: right">
+          <button
+            nzSize="small"
+            nz-button
+            nzType="primary"
+            routerLink="/client/ad/{{ ad.id }}"
+          >
+            View
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

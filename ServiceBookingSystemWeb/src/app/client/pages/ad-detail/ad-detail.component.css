@@ -1,0 +1,126 @@
+.ad-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  min-height: 90vh;
+}
+
+.ad-details-container .top-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ad-details-container .top-section .ad-detail {
+  width: 70%;
+  margin-right: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 30px;
+  background-color: white;
+}
+
+.ad-details-container .top-section .ad-detail img {
+  max-width: 100%;
+  height: auto;
+}
+
+.ad-details-container .top-section .ad-detail .ad-title {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.ad-details-container .top-section .ad-detail .ad-description {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.ad-details-container .top-section .ad-detail .ad-description b {
+  font-weight: bold;
+}
+
+.ad-details-container .top-section .book-service {
+  width: 30%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 20px;
+  background-color: white;
+}
+
+.ad-details-container .top-section .book-service .nz-spin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.ad-details-container
+  .top-section
+  .book-service
+  .nz-spin
+  .book-service-form
+  h2 {
+  font-size: 18px;
+}
+
+.ad-details-container
+  .top-section
+  .book-service
+  .nz-spin
+  .book-service-form
+  nz-form
+  .nz-form-control {
+  width: 100%;
+}
+
+.ad-details-container
+  .top-section
+  .book-service
+  .nz-spin
+  .book-service-form
+  nz-form
+  .nz-form-control
+  nz-date-picker {
+  width: 100%;
+}
+
+.ad-details-container
+  .top-section
+  .book-service
+  .nz-spin
+  .book-service-form
+  nz-form
+  .book-button {
+  margin-top: 10px;
+}
+
+.ad-details-container .reviews-section {
+  width: 100%;
+}
+
+.ad-details-container .reviews-section .review-card {
+  margin-top: 20px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.ad-details-container .reviews-section .review-card p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.ad-details-container .reviews-section .review-card p strong {
+  font-weight: bold;
+}
+
+.ad-details-container .reviews-section .review-card p strong .review-rating {
+  display: block;
+}
+
+.bg {
+  background-color: #f8f8f8;
+  min-height: 91vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+}

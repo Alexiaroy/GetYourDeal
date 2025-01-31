@@ -1,0 +1,359 @@
+/* SECTION 1 */
+section {
+  height: 100vh;
+}
+
+.section-1 {
+  background-color: #f6f4f0;
+  height: 900px;
+  width: 100vw;
+  padding: 5%;
+}
+
+.sec1-main-container {
+  position: relative;
+  padding: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.sec1-left-content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.sec1-left-content h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3vw;
+  line-height: 4vw;
+  color: #0f0f0f;
+  margin-bottom: 0px;
+}
+.sec1-left-content p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #0f0f0f;
+  margin-bottom: 0px;
+}
+
+.sec1-right-img {
+  width: 40%;
+  transform: translateY(6.5%);
+}
+
+.sec1-left-content .ant-btn-link {
+  padding: 10px 20px !important;
+  background-color: #c77a13 !important;
+  color: #fcfcfc !important;
+  line-height: 1;
+  height: auto;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 10px;
+}
+
+.sec1-left-content .ant-btn-link:hover {
+  background-color: #d89d4f !important;
+}
+
+.sec1-second-container {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  right: 0%;
+  height: 440px;
+  border-radius: 20px;
+  background-color: #d6a15a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec1-second-container .phone-img {
+  position: relative;
+  width: 40%;
+  transform: translateY(-38%);
+}
+
+.sec1-left-subcontainer,
+.sec1-right-subcontainer {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.sec1-left-subcontainer {
+  padding-left: 7%;
+  gap: 20px;
+}
+
+.sec1-right-subcontainer {
+  padding-right: 7%;
+  gap: 40px;
+}
+
+.sec1-left-subcontainer h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 39px;
+  color: #ffffff;
+}
+
+.sec1-left-subcontainer p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.sec1-left-subcontainer .ant-btn-link {
+  padding: 10px 20px !important;
+  background-color: #f8ead1 !important;
+  color: #c77a13 !important;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  height: auto;
+  border-radius: 10px;
+}
+.sec1-left-subcontainer .ant-btn-link:hover {
+  background-color: #fcfcfc !important;
+}
+
+.sec1-info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+
+.sec1-info p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  height: 57px;
+  color: #ffffff;
+  margin-bottom: 0px !important;
+}
+
+/* ------------------------------------------------------------------- */
+
+/* SECTION 2 */
+
+.section-2 {
+  background: linear-gradient(180deg, rgba(255, 246, 235, 0) 0%, #fff6eb 100%);
+  margin-top: 500px;
+  width: 100vw;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.section-2 h1 {
+  width: 38%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+  color: #0f0f0f;
+}
+.section-2 h5 {
+  width: 60%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #0f0f0f;
+}
+
+.sec2-facts-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.sec2-fact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.sec2-fact h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #0f0f0f;
+}
+
+.sec2-fact p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  color: #0f0f0f;
+}
+
+/* ------------------------------------------------------------------- */
+
+/* SECTION 3 */
+
+.section-3 {
+  background: transparent;
+  padding: 5%;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+}
+
+.section-3 img {
+  width: 30%;
+}
+
+.sec3-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.sec3-content h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  color: #0f0f0f;
+}
+
+.sec3-points {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.sec3-point-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.sec3-point {
+  width: 32px;
+  height: 32px;
+  background: #fae8d0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #c77a13;
+  border-radius: 50%;
+}
+
+.sec3-point-container p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0f0f0f;
+  margin-bottom: 0px;
+}
+
+.sec3-content .ant-btn-link {
+  padding: 10px 20px !important;
+  background-color: #c77a13 !important;
+  color: #fcfcfc !important;
+  line-height: 1;
+  height: auto;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 10px;
+}
+
+.sec3-content .ant-btn-link:hover {
+  background-color: #d89d4f !important;
+}
+
+/* ------------------------------------------------------------------- */
+
+/* SECTION 4 */
+
+.section-4 {
+  background: #fae8d0;
+  padding: 5%;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 400px;
+}
+.section-4 img {
+  width: 50%;
+}
+.sec4-content {
+  width: 40%;
+}

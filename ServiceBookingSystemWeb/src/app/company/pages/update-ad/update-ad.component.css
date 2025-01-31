@@ -1,0 +1,79 @@
+.parent {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.child {
+  padding: 20px;
+  max-width: 400px;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 100%;
+}
+
+.imgDiv {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.imgDiv h2 {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.file-upload-container span {
+  background-color: #f0f0f0;
+  border: solid 1px #858585;
+  padding: 3px 7px;
+  border-radius: 3px;
+  margin-left: 0px !important;
+  transition: background-color 0.3s ease;
+}
+
+.file-upload-container span:hover {
+  background-color: #dfdfdf;
+  border: solid 1px #757575;
+}
+
+.file-upload-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start !important;
+  margin-bottom: 20px;
+}
+
+.file-upload-container.file-upload-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.file-upload-container .image-preview {
+  margin-top: 10px;
+}
+
+.preview-image {
+  width: 100%;
+}
+
+nz-form-item {
+  margin-bottom: 20px;
+}
+
+.login-form-button {
+  width: 100%;
+}
+
+.login-form-button:hover {
+  background-color: #5db7f7 !important;
+}

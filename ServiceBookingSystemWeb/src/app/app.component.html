@@ -1,0 +1,112 @@
+<nz-header class="header">
+  <div class="container">
+    <a nz-button nzType="link" routerLink="" routerLinkActive="active">
+      <img src="images/logo.png" class="logo-img" height="40" width="40" />
+      <h2 class="logo">Get your deal</h2>
+    </a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"
+      ><span class="navicon"></span
+    ></label>
+    <ul class="menu">
+      <li *ngIf="!isClientLoggedIn && !isCompanyLoggedIn">
+        <a
+          class="inscription"
+          nz-button
+          nzType="link"
+          routerLink="/register"
+          routerLinkActive="active"
+          >Inscription</a
+        >
+      </li>
+      <li *ngIf="!isClientLoggedIn && !isCompanyLoggedIn">
+        <a
+          class="connexion"
+          nz-button
+          nzType="link"
+          routerLink="/login"
+          routerLinkActive="active"
+          >Connexion</a
+        >
+      </li>
+      <li *ngIf="isClientLoggedIn">
+        <a
+          nz-button
+          nzType="link"
+          routerLink="/client/dashboard"
+          routerLinkActive="active"
+          >Dashboard</a
+        >
+      </li>
+      <li *ngIf="isClientLoggedIn">
+        <a
+          nz-button
+          nzType="link"
+          routerLink="/client/bookings"
+          routerLinkActive="active"
+          >Mes deals</a
+        >
+      </li>
+      <li *ngIf="isCompanyLoggedIn">
+        <a
+          nz-button
+          nzType="link"
+          routerLink="/company/dashboard"
+          routerLinkActive="active"
+          >Dashboard</a
+        >
+      </li>
+      <li *ngIf="isCompanyLoggedIn">
+        <a
+          nz-button
+          nzType="link"
+          routerLink="/company/ad"
+          routerLinkActive="active"
+          >Ajouter un deal</a
+        >
+      </li>
+      <li *ngIf="isCompanyLoggedIn">
+        <a
+          nz-button
+          nzType="link"
+          routerLink="/company/ads"
+          routerLinkActive="active"
+          >Voir mes deals</a
+        >
+      </li>
+      <li *ngIf="isClientLoggedIn || isCompanyLoggedIn">
+        <a class="connexion" nz-button nzType="link" (click)="logout()"
+          >Déconnexion</a
+        >
+      </li>
+    </ul>
+  </div>
+</nz-header>
+
+<router-outlet></router-outlet>
+
+<nz-footer class="footer">
+  <img src="images/logo.png" class="footer-img" />
+  <div class="footer-container">
+    <div class="footer-content-container">
+      <div class="footer-content">
+        <div class="footer-content-title">Coordonnées</div>
+        <div class="footer-content-text">
+          <h5>18 Avenue des Ternes<br />75017 Paris, France</h5>
+          <h5>+33 01 15 46 23 78</h5>
+          <h5>gyd-service&#64;gmail.com</h5>
+        </div>
+      </div>
+      <div class="footer-content">
+        <div class="footer-content-title">Des questions ?</div>
+        <div class="footer-content-text">
+          <h5>FAQ</h5>
+          <h5>Conditions génerales</h5>
+          <h5>Mentions légales</h5>
+        </div>
+      </div>
+    </div>
+    <hr class="footer-line" />
+    <h2 class="copyrights">Copyright © 2024 - Tous droits réservés</h2>
+  </div>
+</nz-footer>

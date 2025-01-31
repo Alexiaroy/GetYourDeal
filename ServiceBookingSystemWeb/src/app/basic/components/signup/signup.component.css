@@ -1,0 +1,58 @@
+.signup-container {
+  padding-top: 75px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f5f7f9;
+  font-family: "Arial", sans-serif;
+  padding: 10% 5%;
+}
+
+.signup-container button {
+  height: 700px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+  padding: 5%;
+  border: solid 1px #977a3d;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+.signup-container button:hover {
+  transform: scale(1.05);
+}
+
+.signup-container button img {
+  width: 80%;
+}
+
+.signup-container .client-btn {
+  background-color: #fff6eb;
+}
+
+.signup-container .professional-btn {
+  background-color: #fae8d0;
+}
+
+.signup-container h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  color: #0f0f0f;
+}
+
+.signup-container p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #0f0f0f;
+}

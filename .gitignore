@@ -1,34 +1,73 @@
-# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+# =======================
+# Node.js and Angular
+# =======================
+# Dependency directories
+/node_modules/
+/dist/
+/tmp/
 
+# Angular environment files
+src/environments/environment.ts
+src/environments/environment.prod.ts
+
+# =======================
+# Java and Spring Boot
+# =======================
 # Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
+ServiceBookingSystem/target/
 
-# Node
-/node_modules
-npm-debug.log
-yarn-error.log
+# Spring Boot configuration files
 
+# Build files
+*.jar
+*.war
+*.ear
+*.out
+*.tmp
+*.swp
+*.class
+
+# =======================
 # IDEs and editors
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+# =======================
+# Eclipse-specific folders
+.metadata/
+RemoteSystemsTempFiles/
 
-# Visual Studio Code
+# IDE-specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.project
+.vscode/
+
+# Miscellaneous IDE files
+.project
+.settings/
+*.launch
+.c9/
+.history/*
+
+# Visual Studio Code specific
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-.history/*
 
+# =======================
 # Miscellaneous
+# =======================
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Cache and temporary files
 /.angular/cache
 .sass-cache/
 /connect.lock
@@ -36,40 +75,3 @@ yarn-error.log
 /libpeerconnection.log
 testem.log
 /typings
-
-# System files
-.DS_Store
-Thumbs.db
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
-.vscode/
