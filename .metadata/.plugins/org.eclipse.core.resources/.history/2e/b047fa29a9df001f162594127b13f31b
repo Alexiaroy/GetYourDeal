@@ -1,0 +1,5 @@
+package com.isika.ServiceBookingSystem.Service.Client;
+
+public interface ClientService {
+
+}

@@ -1,0 +1,9 @@
+package com.isika.ServiceBookingSystem.Service.Company;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class CompanyServiceImpl implements CompanyService {
+
+	
+}

@@ -1,0 +1,5 @@
+package com.isika.ServiceBookingSystem.Dto;
+
+public class UserDto {
+
+}
